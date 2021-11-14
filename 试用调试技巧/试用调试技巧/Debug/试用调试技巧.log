@@ -1,0 +1,4 @@
+﻿  源.cpp
+C:\Users\DELL\source\repos\试用调试技巧\试用调试技巧\源.cpp(101,21): error C2440: “初始化”: 无法从“const int *”转换为“int *”
+C:\Users\DELL\source\repos\试用调试技巧\试用调试技巧\源.cpp(101,17): message : 转换丢失限定符
+C:\Users\DELL\source\repos\试用调试技巧\试用调试技巧\源.cpp(103,2): error C3892: “p”: 不能给常量赋值
