@@ -217,6 +217,94 @@
 //	return 0;
 //}
 
+//#include<stdio.h>
+//#include<string.h>
+//int is_left_move(char* str1, char* str2)
+//{
+//	int len1 = strlen(str1);
+//	int len2 = strlen(str2);
+//	if (len1 != len2)
+//		return 0;
+//	else
+//	{
+//		strncat(str1, str2, len1);//是可以自己后面追加自己的，第三项输入的时想追加的个数
+//		char* ret = strstr(str1, str2);//是用来寻找子项的，如果第一项中包含第二项，那么会返回第二项的首元素地址
+//		                   //否则就会返回空指针NULL
+//		if (ret == NULL)
+//			return 0;
+//		else
+//			return 1;
+//	}
+//}
+
+//int main()
+//{
+//	char arr1[30] = "abcdef";
+//	char arr2[] = "cdefab";
+//	int ret = is_left_move(arr1, arr2);
+//	if (ret == 0)
+//		printf("No");
+//	else
+//		printf("Yes");
+//	return 0;
+//}
+
+////strcat的用法（自己给自己追加的时候不可以用）
+//#include<stdio.h>
+//#include<string.h>
+//int main()
+//{
+//	char arr1[40] = "abc";
+//	char arr2[40] = "def";
+//	strcat_s(arr1, arr2);
+//	printf("%s", arr1);//打印的结果就是abcdef
+//	return 0;
+//}
+ 
+//杨氏矩阵中查找某一个数是否存在
+//#include<stdio.h>
+//int FindNum(int arr[3][3], int k, int row, int col)
+//{
+//	int x = 0;
+//	int y = col - 1;
+//	while (x <= row - 1 && y >= 0)//x<=row-1是因为这里是数组，所以下标要-1才是行数
+//	{
+//		if (arr[x][y] > k)
+//		{
+//			y--;
+//		}
+//		else if (arr[x][y] < k)
+//		{
+//			x++;
+//		}
+//		else
+//			return 1;
+//	}
+//	//找不到的时候
+//	return 0;
+//}
+//int main()
+//{
+//	int arr[3][3] = { {1,2,3},{3,4,5},{6,7,8} };
+//	int k = 7;
+//	int ret = FindNum(arr, k, 3, 3);
+//	if (ret == 0)
+//		printf("没找到");
+//	else
+//		printf("找到了");
+//
+//	return 0;
+//}
+
+
+
+
+
+
+
+
+
+
 
 
 
